@@ -1,0 +1,12 @@
+apiVersion: v2
+name: speedtest-exporter
+description: Speedtest Exporter made in python using the official speedtest bin.
+
+type: application
+version: 5.2.0
+appVersion: "1.0.0"
+
+dependencies:
+- name: speedtest-exporter
+  version: 5.2.0
+  repository: https://k8s-at-home.com/charts/
